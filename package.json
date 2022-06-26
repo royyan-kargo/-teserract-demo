@@ -1,0 +1,28 @@
+{
+  "name": "teserract-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:royyan-kargo/teserract-demo.git",
+  "author": "Royyan Bachtiar <royyan@kargo.tech>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "alias": {
+    "react": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react-dom": "preact/compat",
+    "react/jsx-runtime": "preact/jsx-runtime"
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "preact": "^10.8.2",
+    "react-cropper": "^2.1.8",
+    "tesseract.js": "^2.1.5"
+  }
+}
